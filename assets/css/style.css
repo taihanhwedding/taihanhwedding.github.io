@@ -1713,7 +1713,7 @@ ul.media-list + ul .media-object {
 */
 
 footer {
-	background: url(../../media/tai-hanh/bg/section_bg.jpg) no-repeat fixed center center;
+	background: url(../../media/tai-hanh/bg/section_bg.jpg) no-repeat fixed center bottom;
 	text-align: center;
 }
 footer .color-overlay {
