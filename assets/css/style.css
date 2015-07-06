@@ -478,6 +478,20 @@ ul, li {
   -o-background-size: cover;
   background-size: cover;
 }
+#background-carousel .item-no4 {
+  background: url(../../media/tai-hanh/slider/slide-4.jpg) no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#background-carousel .item-no5 {
+  background: url(../../media/tai-hanh/slider/slide-5.jpg) no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 #background-carousel .carousel .active.left {
   left:0;
   opacity:0;
@@ -540,7 +554,7 @@ ul, li {
 	bottom: 0px;
 	left: 0px;
 	border-radius: 50%;
-	background: rgba(126, 97, 97, .9);
+	background: rgba(126, 97, 97, .8);
 	display: table;
 	vertical-align: middle;
 	-webkit-transition: all .3s ease-in;
@@ -552,13 +566,12 @@ ul, li {
 .thumb-img h5 {
 	font-family: 'PT Sans', sans-serif;
 	font-weight: 700;
-    margin-bottom: 0;    
 	color: #fff;
 	font-size: 36px;
 	line-height: 33px;
 	letter-spacing: .05em;
-	margin-top: 70px;
-	margin-bottom: 30px;
+	margin-top: 2.5em;
+	margin-bottom: .5em;
 	-webkit-transition: all .8s ease-in;
 	   -moz-transition: all .8s ease-in;
 	     -o-transition: all .8s ease-in;
@@ -572,12 +585,16 @@ ul, li {
 	letter-spacing: .1em;
 	font-size: 24px;
 }
-.thumb-img p {
+.thumb-img div {
 	color: #fff;
+	padding: 0 5px;
 	margin-bottom: 60px;
 }
 .thumb-img .social-icon li a {
 	color: #fff;
+}
+.thumb-img .social-icon li {
+	margin-left: 0px;
 }
 .thumbnail-detail {
     background: #e1704b;	
@@ -912,7 +929,7 @@ ul, li {
             transition: .3s ease;	
 }
 .event-body {
-    position: relative;    
+    position: relative;
     padding: 35px 35px 100px;
     text-align: center;
 }
@@ -948,7 +965,7 @@ ul, li {
 .gift-block {
 	position: relative;
     padding: 65px 20px;
-    text-align: center;    
+    text-align: center;
 	border: 3px solid #D3D3D3;
     background: rgba(219,219,219,.9);
     z-index: 1;
@@ -1804,14 +1821,14 @@ footer .nav {
 	display: none;
 }
 #go-to-top .fa {
-	position: fixed;    
+	position: fixed;
 	bottom: 5px;
-    right: 5px;    
+    right: 5px;
 	width: 56px;
 	height: 56px;
 	color: #9B9393;
     
-	font-size: 38px;    
+	font-size: 38px;
     border: none;
     text-align: center;
     padding: 5px;
